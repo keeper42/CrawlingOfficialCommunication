@@ -10,7 +10,7 @@
     // Local database.
     $hostname = 'localhost';
     $username = 'root';
-    $password = '654321';
+    $password = '';
     $database = 'lizhi';
     $link = mysqli_connect($hostname, $username, $password, $database);
     if (!$link) {
