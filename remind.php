@@ -4,7 +4,7 @@
  * Date: 2017/3/25
  */
     // Refresh webpage.
-    header("refresh:600; url=remind.php");
+    header("refresh: 5; url=remind.php");
     header("Content-type: text/html; charset=gb2312");
 
     // Local database.
