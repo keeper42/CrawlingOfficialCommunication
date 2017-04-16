@@ -4,14 +4,14 @@
  * Date: 2017/3/25
  */
     // Refresh webpage.
-    header("refresh: 5; url=remind.php");
+    header("refresh: 60; url=remind.php");
     header("Content-type: text/html; charset=gb2312");
 
     // Local database.
-    $hostname = 'localhost';
-    $username = 'root';
+    $hostname = '';
+    $username = '';
     $password = '';
-    $database = 'lizhi';
+    $database = '';
     $link = mysqli_connect($hostname, $username, $password, $database);
     if (!$link) {
         die('Connect Error (' . $link->connect_errno . ')'
